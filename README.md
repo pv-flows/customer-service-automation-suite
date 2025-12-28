@@ -1,9 +1,9 @@
 # 🚀 Customer Service Productivity Suite
 **(Suite de Produtividade para Atendimento e Vendas)**
 
-> **[English]** A collection of **UserScripts** developed to optimize workflow, reduce clicks, and prevent human errors within **Hyperflow** and **WhatsApp Web** environments.
+> **[English]** A collection of **UserScripts** developed to optimize workflow, reduce clicks, and prevent human errors within **Hyperflow** and **Web Tools** environments.
 >
-> **[Português]** Uma coleção de **UserScripts** desenvolvida para otimizar o fluxo de trabalho, reduzir cliques e prevenir erros humanos nos ambientes **Hyperflow** e **WhatsApp Web**.
+> **[Português]** Uma coleção de **UserScripts** desenvolvida para otimizar o fluxo de trabalho, reduzir cliques e prevenir erros humanos nos ambientes **Hyperflow** e **Ferramentas Web**.
 
 ---
 
