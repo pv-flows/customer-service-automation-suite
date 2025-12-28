@@ -3,7 +3,9 @@
 // @namespace    https://gist.github.com/paulosereduc
 // @version      1.6
 // @description  Cópia automática Global. Protege edição manual, mas libera cópia em clique triplo (Planilhas). Global + Proteção Painel + Planilhas
-// @author       Paulo Sereduc
+// @author       Paulo Victor Freire da Silva
+// @github       github.com/pv-flows
+// @email        pv.flows@gmail.com
 // @match        *://*/*
 // @grant        none
 // @updateURL    https://gist.githubusercontent.com/paulosereduc/acf114e931e83ca71048bc27723a7748/raw/SmartCopy.user.js
