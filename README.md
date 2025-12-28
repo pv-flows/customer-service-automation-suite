@@ -38,6 +38,7 @@
 ### 2. Smart Corporate Notepad (Bloco de Notas Inteligente)
 
 ![Demo Bloco de Notas](assets/demo-bloco.gif)
+> *Acima: Bloco de notas integrado com salvamento automático para anotações rápidas durante o atendimento.*
 
 **[EN]** A persistent, floating workspace for temporary data storage during customer interactions, designed to eliminate the need for external apps like Windows Notepad.
 
