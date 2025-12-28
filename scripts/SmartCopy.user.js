@@ -6,7 +6,7 @@
 // @author       Paulo Victor Freire da Silva
 // @github       github.com/pv-flows
 // @email        pv.flows@gmail.com
-// @match        *://*/*
+// @match        *https://conversas.hyperflow.global/*
 // @grant        none
 // @updateURL    https://gist.githubusercontent.com/paulosereduc/acf114e931e83ca71048bc27723a7748/raw/SmartCopy.user.js
 // @downloadURL  https://gist.githubusercontent.com/paulosereduc/acf114e931e83ca71048bc27723a7748/raw/SmartCopy.user.js
