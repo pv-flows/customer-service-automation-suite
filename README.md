@@ -72,10 +72,13 @@
 
 **[BR]** Estas ferramentas foram projetadas para rodar com gerenciadores de script como **Tampermonkey** ou **Violentmonkey**.
 
-1. Install the extension in your browser.
-2. Navigate to the `/scripts` folder in this repository.
-3. Click on the desired script file -> Click **"Raw"**.
+1. Install the extension in your browser (e.g., [Tampermonkey](https://www.tampermonkey.net/)).
+2. Click on the desired script below to open the code, then click the **"Raw"** button to install:
+    * [📄 Install Financial Proposal Generator](scripts/GeradorPropostas.user.js)
+    * [📄 Install Smart Corporate Notepad](scripts/bloconotasflowkey.user.js)
+    * [📄 Install SmartCopy Daemon](scripts/SmartCopy.user.js)
 4. Confirm installation.
+5. Refresh Page.
 
 ---
 
