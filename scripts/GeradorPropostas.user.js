@@ -3,7 +3,9 @@
 // @namespace    https://gist.github.com/paulosereduc
 // @version      3.2
 // @description  Correção de layout + Feriados Nacionais (2025/2026/2027).
-// @author       Paulo Sereduc
+// @author       Paulo Victor Freire da Silva
+// @github       github.com/pv-flows
+// @email        pv.flows@gmail.com
 // @match        https://conversas.hyperflow.global/*
 // @match        https://web.whatsapp.com/*
 // @grant        none
