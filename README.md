@@ -1,12 +1,9 @@
-# customer-service-automation-suite
-Conjunto de UserScripts para otimização de fluxo de trabalho no Hyperflow e Ferramentas Web
-
 # 🚀 Customer Service Productivity Suite
 **(Suite de Produtividade para Atendimento e Vendas)**
 
 > **[English]** A collection of **UserScripts** developed to optimize workflow, reduce clicks, and prevent human errors within **Hyperflow** and **WhatsApp Web** environments.
 >
-> **[Português]** Uma coleção de **UserScripts** desenvolvida para otimizar o fluxo de trabalho, reduzir cliques e prevenir erros humanos nos ambientes **Hyperflow** e **Ferramentas Web**.
+> **[Português]** Uma coleção de **UserScripts** desenvolvida para otimizar o fluxo de trabalho, reduzir cliques e prevenir erros humanos nos ambientes **Hyperflow** e **WhatsApp Web**.
 
 ---
 
@@ -23,7 +20,12 @@ Conjunto de UserScripts para otimização de fluxo de trabalho no Hyperflow e Fe
 ## 📂 The Projects (Os Projetos)
 
 ### 1. Financial Proposal Generator (Gerador de Propostas Financeiras)
-**[EN]** An advanced tool that injects a calculator panel directly into the CRM interface. It automates the math for debt negotiation and generates standardized negotiation texts instantly.<br>
+
+![Demo Gerador de Propostas](assets/demo-gerador.gif)
+> *Acima: Painel flutuante calculando datas e gerando texto de negociação automaticamente.*
+
+**[EN]** An advanced tool that injects a calculator panel directly into the CRM interface. It automates the math for debt negotiation and generates standardized negotiation texts instantly.
+
 **[PT]** Uma ferramenta avançada que injeta um painel de calculadora diretamente na interface do CRM. Ela automatiza a matemática da negociação de dívidas e gera textos de negociação padronizados instantaneamente.
 
 * **Smart Date Logic:** Calculates due dates automatically based on business days, utilizing an integrated calendar of **Brazilian National Holidays (2025-2027)**.
@@ -31,8 +33,14 @@ Conjunto de UserScripts para otimização de fluxo de trabalho no Hyperflow e Fe
 * **One-Click Action:** Copies a fully formatted message ready to be sent via WhatsApp.
 * **Tech:** `Date Object`, `Arrays`, `CSS Injection`.
 
+---
+
 ### 2. Smart Corporate Notepad (Bloco de Notas Inteligente)
-**[EN]** A persistent, floating workspace for temporary data storage during customer interactions, designed to eliminate the need for external apps like Windows Notepad.<br>
+
+![Demo Bloco de Notas](assets/demo-bloco.gif)
+
+**[EN]** A persistent, floating workspace for temporary data storage during customer interactions, designed to eliminate the need for external apps like Windows Notepad.
+
 **[PT]** Um espaço de trabalho flutuante e persistente para armazenamento temporário de dados durante interações com clientes, projetado para eliminar a necessidade de apps externos como o Bloco de Notas do Windows.
 
 * **State Persistence:** Uses `LocalStorage` to save notes automatically. Data remains safe even if the browser crashes or the page refreshes.
@@ -40,8 +48,14 @@ Conjunto de UserScripts para otimização de fluxo de trabalho no Hyperflow e Fe
 * **Privacy First:** Data is stored locally in the user's browser, ensuring security.
 * **Tech:** `LocalStorage API`, `Draggable UI Logic`.
 
+---
+
 ### 3. SmartCopy Daemon
-**[EN]** A background utility that solves the conflict between "selecting text to edit" vs. "copying text to paste" in web-based spreadsheets and CRM inputs. <br>
+
+![Demo SmartCopy](assets/demo-smartcopy.gif)
+
+**[EN]** A background utility that solves the conflict between "selecting text to edit" vs. "copying text to paste" in web-based spreadsheets and CRM inputs.
+
 **[PT]** Um utilitário de segundo plano que resolve o conflito entre "selecionar texto para editar" vs. "copiar texto para colar" em planilhas web e inputs de CRM.
 
 * **Context Awareness:** Blocks auto-copy when the user drags the mouse (interpreting it as an intent to edit).
@@ -53,7 +67,8 @@ Conjunto de UserScripts para otimização de fluxo de trabalho no Hyperflow e Fe
 
 ## 🚀 Installation (Instalação)
 
-**[EN]** These tools are designed to run with script managers like **Tampermonkey** or **Violentmonkey**.<br>
+**[EN]** These tools are designed to run with script managers like **Tampermonkey** or **Violentmonkey**.
+
 **[PT]** Estas ferramentas foram projetadas para rodar com gerenciadores de script como **Tampermonkey** ou **Violentmonkey**.
 
 1. Install the extension in your browser.
