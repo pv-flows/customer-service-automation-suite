@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Bloco de Notas Corporativo + Macros (v4.2)
-// @namespace    https://gist.github.com/paulosereduc
+// @namespace    https://gist.github.com/pv-flows
 // @version      4.2
 // @description  Bloco de notas v4.2 com adição de Modo Escuro e Reset de Posição/Tamanho.
 // @author       Paulo Victor Freire da Silva
 // @github       github.com/pv-flows
 // @email        pv.flows@gmail.com
+// @match        *://*/*
 // @downloadURL  https://gist.githubusercontent.com/paulosereduc/bc11b6e8107d4391e796ad2f8cd7b09a/raw/bloconotasflowkey.user.js
 // @updateURL    https://gist.githubusercontent.com/paulosereduc/bc11b6e8107d4391e796ad2f8cd7b09a/raw/bloconotasflowkey.user.js
 // @grant        none
