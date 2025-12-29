@@ -28,9 +28,9 @@
         { key: ";q2", val: "Você tem interesse em alguma das condições ofertadas para pagamento?" },
         { key: ";r1", val: "Tudo certo com a efetivação do pagamento? Fico no aguardo do comprovante para dar baixa no sistema. ✅" },
         { key: ";r2", val: "Paulo por aqui. Notei que a baixa do pagamento ainda não caiu. Houve algum imprevisto? Preciso do seu retorno para evitar que o acordo seja cancelado e os juros voltem." },
-        { key: ";pix", val: "Acordo formalizado com sucesso! ✅\nSegue abaixo o link para pagamento via PIX:\n" },
-        { key: ";car", val: "Acordo formalizado com sucesso! ✅\nSegue abaixo o link para pagamento via cartão de crédito:\n" },
-        { key: ";bol", val: "Acordo formalizado com sucesso! ✅\nSegue abaixo o boleto para pagamento:\n" },
+        { key: ";pix", val: "Acordo formalizado com sucesso! ✅\nSegue abaixo o link para pagamento via PIX:\n\n" },
+        { key: ";car", val: "Acordo formalizado com sucesso! ✅\nSegue abaixo o link para pagamento via cartão de crédito:\n\n" },
+        { key: ";bol", val: "Acordo formalizado com sucesso! ✅\nSegue abaixo o boleto para pagamento:" },
         { key: ";lib", val: "Para liberarmos seu acesso ao Portal do Aluno, envie o comprovante assim que efetuar o pagamento. Isso agiliza a baixa no sistema." },
         { key: ";xau", val: "MACRO DINAMICA DE DESPEDIDA" }
     ];
