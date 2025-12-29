@@ -7,8 +7,8 @@
 // @github       github.com/pv-flows
 // @email        pv.flows@gmail.com
 // @match        *https://conversas.hyperflow.global/*
-// @downloadURL  https://gist.githubusercontent.com/paulosereduc/bc11b6e8107d4391e796ad2f8cd7b09a/raw/bloconotasflowkey.user.js
-// @updateURL    https://gist.githubusercontent.com/paulosereduc/bc11b6e8107d4391e796ad2f8cd7b09a/raw/bloconotasflowkey.user.js
+// @downloadURL  https://gist.githubusercontent.com/pv-flows/bc11b6e8107d4391e796ad2f8cd7b09a/raw/bloconotasflowkey.user.js
+// @updateURL    https://gist.githubusercontent.com/pv-flows/bc11b6e8107d4391e796ad2f8cd7b09a/raw/bloconotasflowkey.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -155,8 +155,10 @@
         if (macrosV2) {
             macrosList = JSON.parse(macrosV2);
 
-            // Fix ;bol e ;xau
+            // --- CORREÇÃO: VERIFICAÇÃO DE NOVAS MACROS ---
             let houveMudanca = false;
+
+            // Fix ;bol
             if (!macrosList.find(m => m.key === ';bol')) {
                 const indexCar = macrosList.findIndex(m => m.key === ';car');
                 const macroBol = { key: ";bol", val: "Acordo formalizado com sucesso! ✅\nSegue abaixo o boleto para pagamento:\n" };
@@ -167,11 +169,27 @@
                 }
                 houveMudanca = true;
             }
+
+            // Fix ;cra (Adicionado)
+            if (!macrosList.find(m => m.key === ';cra')) {
+                macrosList.push({ key: ";cra", val: "CRA 📞 Fone: (81) 3413-4611 💬 Chat: https://altchat.sereduc.com/CRA/ChatAltitude.html" });
+                houveMudanca = true;
+            }
+
+            // Fix ;ven (Adicionado)
+            if (!macrosList.find(m => m.key === ';ven')) {
+                macrosList.push({ key: ";ven", val: "Não consigo alterar o vencimento, pois é sistêmico. Porém, fechando o acordo agora, você trava o valor e impede novos juros. É a melhor estratégia para você economizar. Podemos seguir?" });
+                houveMudanca = true;
+            }
+
+            // Fix ;xau
             if (!macrosList.find(m => m.key === ';xau')) {
                 macrosList.push({ key: ";xau", val: "MACRO DINAMICA DE DESPEDIDA" });
                 houveMudanca = true;
+                // Remove macros antigas obsoletas se existirem
                 macrosList = macrosList.filter(m => m.key !== ';dia' && m.key !== ';tar' && m.key !== ';noi');
             }
+
             if (houveMudanca) {
                 salvarMacros();
             }
