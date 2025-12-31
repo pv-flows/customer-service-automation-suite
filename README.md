@@ -11,7 +11,6 @@
 * **JavaScript (ES6+)**
 * **DOM Manipulation** (Interface Injection)
 * **LocalStorage API** (Data Persistence)
-* **MutationObserver** (SPA state monitoring)
 * **Clipboard API** & Event Handling
 * **CSS Flexbox** (Responsive UI)
 
